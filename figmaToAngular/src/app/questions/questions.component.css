@@ -1,0 +1,125 @@
+.main-title {
+  color: var(--color-text-color-text, #363636);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.title {
+ color: var(--color-text-color-text, #363636);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+}
+.title-dif {
+  color: var(--color-template-color-primary, #0e479c);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.text {
+ color: var(--color-text-color-subtext, #7F7F7F);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; 
+}
+.other-text{
+color: var(--color-template-color-primary, #0E479C);
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+}
+.questions {
+  background: var(--Gradient-1, linear-gradient(82deg, #d9edff 2.1%, #e7f4ff 70.39%, #fdfeff 100.94%));
+  padding: 20px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  flex: 0 0 calc(33.3333% - 20px); 
+  max-width: calc(33.3333% - 20px); 
+  margin: 10px;
+}
+.line {
+  border: 1px solid #dfdfdf;
+  margin: 10px 0;
+  width: 421px;
+}
+.card {
+  display: flex;
+  padding: 16px 44px 16px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 12px;
+  background: var(--color-base-color-white, #fff);
+  text-align: center;
+  width: 100%;
+}
+.title, .title-dif, .text, .other-text {
+  text-align: left; 
+  margin: 0; 
+}
+.text-content{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 28px;
+}
+.help-text{
+color: var(--color-text-color-text, #363636);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+}
+.help-text2{
+color: var(--color-text-color-subtext, #7F7F7F);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+.question-button{
+border-radius: 100px;
+background: var(--color-template-color-primary, #0E479C);
+display: flex;
+padding: 12px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border:none;
+color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .flex-item {
+    flex: 0 0 calc(100% - 20px); 
+    max-width: calc(100% - 20px);
+  }
+}
